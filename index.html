@@ -103,6 +103,15 @@ img{max-width:100%;display:block}
 .spec:last-child{border-right:none}
 .spec .v{font-weight:700;font-size:1.4rem;color:var(--sepia)}
 .spec .k{text-transform:uppercase;letter-spacing:.2em;font-size:.6rem;color:var(--ink-faint);margin-top:5px}
+.pres{max-width:880px;margin:34px auto 0;text-align:center}
+.pres-label{display:block;font-weight:700;text-transform:uppercase;letter-spacing:.34em;
+  font-size:.66rem;color:var(--ink-faint);margin-bottom:16px}
+.pres-row{display:flex;flex-wrap:wrap;justify-content:center;gap:14px}
+.pres-item{display:flex;align-items:baseline;gap:6px;padding:16px 30px;border:1px solid var(--line);
+  border-radius:2px;background:rgba(247,238,218,.45);transition:.22s}
+.pres-item:hover{border-color:var(--sepia);background:rgba(247,238,218,.75);transform:translateY(-2px)}
+.pres-item .pv{font-weight:700;font-size:1.9rem;line-height:1;color:var(--sepia)}
+.pres-item .pu{font-weight:700;text-transform:uppercase;letter-spacing:.14em;font-size:.72rem;color:var(--ink-faint)}
 
 /* ===== BOOK GALLERY ===== */
 .gallery{background:linear-gradient(180deg,#d8c5a0,#cbb590)}
@@ -224,8 +233,8 @@ img{max-width:100%;display:block}
     </div>
   </div>
   <figure class="hero-photo">
-    <div class="photo-frame"><img src="fotos/hero.jpg" alt="Botella de Manicomio Xiuate en el páramo, entre frailejones y una laguna"></div>
-    <figcaption class="photo-cap">Del páramo de Sibaté, Cundinamarca.</figcaption>
+    <div class="photo-frame"><img src="fotos/hero.jpg" alt="Botella de Manicomio Xiuate, licor de papa artesanal de Sibaté, Cundinamarca"></div>
+    <figcaption class="photo-cap">Manicomio Xiuate — licor de papa de Sibaté, Cundinamarca.</figcaption>
   </figure>
 </header>
 
@@ -262,9 +271,17 @@ img{max-width:100%;display:block}
   </div>
   <div class="specs">
     <div class="spec"><div class="v">26% Vol.</div><div class="k">Graduación</div></div>
-    <div class="spec"><div class="v">700 ml</div><div class="k">Contenido</div></div>
     <div class="spec"><div class="v">Papa</div><div class="k">Materia prima</div></div>
     <div class="spec"><div class="v">Sibaté</div><div class="k">Origen</div></div>
+  </div>
+
+  <div class="pres">
+    <span class="pres-label">Presentaciones</span>
+    <div class="pres-row">
+      <div class="pres-item"><span class="pv">750</span><span class="pu">ml</span></div>
+      <div class="pres-item"><span class="pv">375</span><span class="pu">ml</span></div>
+      <div class="pres-item"><span class="pv">90</span><span class="pu">ml</span></div>
+    </div>
   </div>
 </section>
 
